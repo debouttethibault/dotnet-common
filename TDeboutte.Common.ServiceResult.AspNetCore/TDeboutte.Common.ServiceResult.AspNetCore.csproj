@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+        <PackageId>TDeboutte.Common.ServiceResult.AspNetCore</PackageId>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <Version>0.1</Version>
+        <Authors>Thibault Deboutte</Authors>
+        <Company>tdeboutte.com</Company>
+        <Product>TDeboutte.Common.ServiceResult.AspNetCore</Product>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="TDeboutte.Common.ServiceResult" Version="0.1.0" />
+    </ItemGroup>
+</Project>

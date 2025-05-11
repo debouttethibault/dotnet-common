@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Nullable>enable</Nullable>
+        <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+        <PackageId>TDeboutte.Common.ServiceResult</PackageId>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <Version>0.1</Version>
+        <Authors>Thibault Deboutte</Authors>
+        <Company>tdeboutte.com</Company>
+        <Product>TDeboutte.Common.ServiceResult</Product>
+    </PropertyGroup>
+
+</Project>
